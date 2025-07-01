@@ -140,14 +140,15 @@ library(dplyr)
 library(tidyr)
 library(ggplot2)
 
-# dplyr adds many functions that can be used to transform data. We will use three
+# dplyr adds many functions that can be used to transform data. We will use 4
 # of those below.
 # We are also going to use the pipe %>% operator as it allows us to
 # chain commands together and create a pipe
 
 # mutate: add a new column
 # select: reorder, and select columns
-# arrange: sort data on a particular column
+# arrange: sort data by a particular column
+# filter: subset rows in a data frame based on a condition
 
 # Say we had a data frame comprised of three vectors
 character_details <- data.frame(Age = c(101, 160, 97, 45, 134, 26, 163, 13, 16),
