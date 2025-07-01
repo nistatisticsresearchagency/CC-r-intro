@@ -1,5 +1,4 @@
-# R: Not just for technical wizards
-## NISRA Coffee and Coding - R and RStudio Introduction
+# NISRA Coffee and Coding - R and RStudio Introduction
 
 ### Setup 
 - Download the .zip folder of this repo (green code button dropdown to top right, then select "Download ZIP").
@@ -18,4 +17,4 @@
   - You may not have access to the package repository needed to install packages within this project. Contact techlab@nisra.gov.uk for more info on this
   - You should still be able to run the scripts below up to the packages section, even without completed installs, as the earlier parts use BASE R code only
 
-Open _"r-intro-coffee-coding"_ and run through code
+Open the _"r-intro-coffee-coding.R"_ script and run through code
