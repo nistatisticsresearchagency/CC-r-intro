@@ -1,5 +1,5 @@
 # solution to self guided coding in the YOUR TURN section
-starwars <- starwars %>%
+starwars_edit <- starwars %>%
   select(!c(birth_year,sex,homeworld)) %>%
   filter(gender == "masculine" &
          species %in% c("Human","Droid","Gungan","Wookiee","Zabrak")) %>% 

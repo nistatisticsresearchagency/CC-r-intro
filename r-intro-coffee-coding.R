@@ -209,7 +209,7 @@ starwars <- read.csv("starwars.csv")
 # YOUR TURN ----
 # we want process the starwars dataframe applying the below conditions: 
 
-starwars <- xxxx %>%
+starwars_edit <- xxxx %>%
   
   ## select every variable except birth_year, sex and homeworld
   # hint - you can specify a range of columns with first_column:last_column
@@ -230,13 +230,13 @@ starwars <- xxxx %>%
 
 # we can create a plot to summarise some of the information in the edited starwars dataframe
 
-print(ggplot_height_species <- ggplot(starwars, aes(x = species, y = height, colour = species)) +
+print(ggplot_height_species <- ggplot(starwars_edit, aes(x = species, y = height, colour = species)) +
         geom_point(size = 2.5)) +
   theme_minimal() +
   theme(legend.position = "none")
 
 # we can write that file out to csv from R 
-write.csv(starwars, file="starwars_edited.csv", row.names = FALSE)
+write.csv(starwars_edit, file="starwars_edited.csv", row.names = FALSE)
 
 # Keyboard shortcuts ----
 # assignment - Alt + -
