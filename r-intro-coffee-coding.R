@@ -211,22 +211,28 @@ starwars <- read.csv("starwars.csv")
 
 starwars_edit <- xxxx %>%
   
-  ## select every variable except birth_year, sex and homeworld
-  # hint - you can specify a range of columns with first_column:last_column
-  # hint - you can negate a selection i.e. specify those NOT to be selected
-  # with !c(columns_to_drop)
+  ## STEP 1: Select columns
+  ## Select every variable EXCEPT birth_year, sex, and homeworld
+  ## Replace xxxx with the correct column selection
+  # hint - you can specify a range of columns with first_column:last_column OR
+  # hint - you can negate a selection i.e. specify those NOT to be selected with !c(columns_to_drop)
   select(xxxx) %>%
   
-  ## is filtered to only include gender of "masculine" and
-  ## is in the top 5 species by count - this second part has been done for you
+  
+  ## STEP 2: Filter rows
+  ## Keep only rows where gender is "masculine"
+  ## AND species is one of the top 5 most common - this second part has been done for you
   filter(xxxx == "xxxx" &
            species %in% c("Human","Droid","Gungan","Wookiee","Zabrak")) %>%
   
-  ## has the three variables using the american spelling of colour renamed
+  
+  ## STEP 3: Rename columns
+  ## Rename hair_color, skin_colour, and eye_color to use American spelling
   # hint - to open the help for the rename function type ?rename into the console
   rename(xxxx = hair_color,
          skin_colour = xxxx,
          xxxx = eye_color)
+
 
 # we can create a plot to summarise some of the information in the edited starwars dataframe
 
