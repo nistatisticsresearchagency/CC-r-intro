@@ -32,6 +32,7 @@
 # Expressions can be evaluated in the console like below
 5 + 5
 paste0("Bumble","Bee")
+# all functions, such as paste0 are followed by ( ) and will require certain arguments
 
 # Press the up/down arrows on the keyboard to cycle through previous commands
 # when in the Console
@@ -95,7 +96,7 @@ print(paste0("There are ", nrow(df), " rows in the dataframe named df"))
 # A new column can also be created in the data frame using the $ separator
 # all of this so far is what we call BASE R code - we will cover other data
 # manipulation methods later
-df$value2 <- df$values*2
+df$values_doubled <- df$values*2
 
 # If/Else and Logic in R ----
 # can be used to create certain outputs
@@ -121,7 +122,7 @@ x != 4
 # Loops ----
 # We can create a for loop to repeat a process
 # Here we will ask R to print the statement "My name is ___" for every value in 
-# the column names
+# the vector names that we created earlier
 # paste() is the R command to combine two strings of text
 for (name in names) {
   print(paste("My name is", name))
