@@ -1,6 +1,10 @@
 library(dplyr)
 library(tidyr)
 
+# THIS SCRIPT RUNS OFF DATAFRAMES CREATED IN R-INTRO-COFFEE-CODING.R
+# YOU NEED TO HAVE CREATED THE 'character_details' DATAFRAME FROM THAT
+# SCRIPT FOR THE BELOW TO RUN
+
 # Pivot ----
 # a dataframe can be pivoted wider or longer with pivot_wider() and pivot_longer()
 character_details_long <- character_details %>% 

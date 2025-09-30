@@ -1,3 +1,8 @@
+# THIS SCRIPT RUNS OFF DATAFRAMES CREATED IN R-INTRO-COFFEE-CODING.R
+# YOU NEED TO HAVE CREATED THE 'new_character_details_piped' DATAFRAME 
+# FROM THAT SCRIPT FOR THE BELOW TO RUN
+
+
 # Charts ----
 # Graphs can be quickly created from data frames using the plotly or ggplot2 libraries
 # We are going to look a ggplot2 today - plotly is just interactive version
