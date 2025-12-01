@@ -73,13 +73,13 @@ list_example <- list(1, "a", TRUE, 100L)
 # Factors
 # Factors are used to represent categorical data. 
 # They can be ordered or unordered and contain levels
-sex_factor <- factor(c("male", "female", "female", "male"))
+factor_sex <- factor(c("male", "female", "female", "male"))
 # R will assign 1 to the level "female" and 2 to the level "male" 
 # (because f comes before m, even though the first element in this vector is "male")
 # You can check this by using the function levels(), 
 # and check the number of levels using nlevels():
-levels(sex_factor)
-nlevels(sex_factor)
+levels(factor_sex)
+nlevels(factor_sex)
 
 # Dataframes
 # Vectors can be combined into data frames - a df is essentially just a combination
@@ -195,13 +195,6 @@ new_character_details_piped <- character_details %>%
 # or you can highlight up to the pipe on a selection of rows and run that
 
 
-
-# EXTRA CONTENT FOR IN PERSON SESSIONS ----
-# open in-person-extras.R
-
-
-
-
 # data import ---
 # Most times we won't be defining our data in the code, we will be importing
 # from a csv or other static file
@@ -210,26 +203,29 @@ starwars <- read.csv("starwars.csv")
 # YOUR TURN ----
 # we want process the starwars dataframe applying the below conditions: 
 
+## STEP 1: Select columns
+## Select every variable EXCEPT birth_year, sex, and homeworld
+## Replace xxxx with the correct column selection
+# hint - you can specify a range of columns with first_column:last_column OR
+# hint - you can negate a selection i.e. specify those NOT to be selected with !c(columns_to_drop)
+
+## STEP 2: Filter rows
+## Keep only rows where gender is "masculine"
+## AND species is one of the top 5 most common - this second part has been done for you
+
+## STEP 3: Rename columns
+## Rename hair_color, skin_colour, and eye_color to English spelling (-our)
+# hint - to open the help for the rename function type ?rename into the console
+
+
+### REMINDER
+### You can test part of your pipe by selecting from the start of it, up to just before the pipe operator on the line you want to run
+### and run those lines only
+
 starwars_edit <- xxxx %>%
-  
-  ## STEP 1: Select columns
-  ## Select every variable EXCEPT birth_year, sex, and homeworld
-  ## Replace xxxx with the correct column selection
-  # hint - you can specify a range of columns with first_column:last_column OR
-  # hint - you can negate a selection i.e. specify those NOT to be selected with !c(columns_to_drop)
   select(xxxx) %>%
-  
-  
-  ## STEP 2: Filter rows
-  ## Keep only rows where gender is "masculine"
-  ## AND species is one of the top 5 most common - this second part has been done for you
   filter(xxxx == "xxxx" &
            species %in% c("Human","Droid","Gungan","Wookiee","Zabrak")) %>%
-  
-  
-  ## STEP 3: Rename columns
-  ## Rename hair_color, skin_colour, and eye_color to use American spelling
-  # hint - to open the help for the rename function type ?rename into the console
   rename(xxxx = hair_color,
          skin_colour = xxxx,
          xxxx = eye_color)
