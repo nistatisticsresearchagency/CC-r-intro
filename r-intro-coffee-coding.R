@@ -214,7 +214,7 @@ starwars <- read.csv("starwars.csv")
 ## AND species is one of the top 5 most common - this second part has been done for you
 
 ## STEP 3: Rename columns
-## Rename hair_color, skin_colour, and eye_color to English spelling (-our)
+## Rename hair_color, skin_color, and eye_color to English spelling (-our)
 # hint - to open the help for the rename function type ?rename into the console
 
 
