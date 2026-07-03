@@ -273,6 +273,10 @@ print(ggplot_height_species <- ggplot(starwars_edit, aes(x = species, y = height
   theme_minimal() +
   theme(legend.position = "none")
 
+
+
+
+# Data export ----
 # we can write that file out to csv from R 
 write.csv(starwars_edit, file="starwars_edited.csv", row.names = FALSE)
 
