@@ -16,19 +16,28 @@
 # Comments in R are preceded with a # - Ctrl + Shift + C to comment/uncomment lines
 
 
+
+
 # Data Types ----
 # Code can be sent to the console for evaluation either line by line with
 # Ctrl + Enter or by selecting a chunk and using Ctrl + Enter
 # A Run button above does the same thing
 
-# Numbers are entered without quotes
+## Numbers ---- 
+# entered without quotes
 5
-# Text should always be entered in quotes, single or double
+
+## Text ---- 
+# entered in quotes, single or double
 "Bumblebee"
 
 # Anything unassigned that is sent to the Console only exists there, it is
 # not stored
 
+
+
+
+# Running code in R ----
 # Expressions can be evaluated in the console like below
 5 + 5
 paste0("Bumble","Bee")
@@ -37,6 +46,7 @@ paste0("Bumble","Bee")
 # Press the up/down arrows on the keyboard to cycle through previous commands
 # when in the Console
 
+## Assigning data to values/objects ----
 # We can also store persistent named values in the environment
 # Replace Kyle with your name below and run the line to see what happens
 my_name <- "Kyle"
@@ -56,21 +66,23 @@ x + 7
 y <- TRUE
 
 
+
+
 # Data structures in R ----
 
-# Vectors
+## Vectors ----
 # Contains items of the same type - created using c()
 # A string vector
 names <- c("Brenda", "Joe", "Mike")
 # a numeric vector
 values <- c(1, 3, 5)
 
-# Lists
+## Lists ----
 # Like vectors but can contain multiple different types of data
 # can be nested to create data hierarcy
 list_example <- list(1, "a", TRUE, 100L)
 
-# Factors
+## Factors ----
 # Factors are used to represent categorical data. 
 # They can be ordered or unordered and contain levels
 factor_sex <- factor(c("male", "female", "female", "male"))
@@ -81,7 +93,7 @@ factor_sex <- factor(c("male", "female", "female", "male"))
 levels(factor_sex)
 nlevels(factor_sex)
 
-# Dataframes
+## Dataframes ----
 # Vectors can be combined into data frames - a df is essentially just a combination
 # of vectors
 # After running this line double click on df in the environment to view the data
@@ -98,7 +110,12 @@ print(paste0("There are ", nrow(df), " rows in the dataframe named df"))
 # manipulation methods later
 df$values_doubled <- df$values*2
 
+
+
+
 # If/Else and Logic in R ----
+
+## If else coding ----
 # can be used to create certain outputs
 # The code below will check the content of the value my_name and output one of two responses
 if (my_name == "Kyle") {
@@ -107,6 +124,7 @@ if (my_name == "Kyle") {
   "not you"
 }
 
+## Logical coding ----
 # Note that we use a double equals sign == in logical commands
 my_name == "Brian"
 # be careful not to confuse with a single equals which is the same as using <- 
@@ -119,6 +137,9 @@ x < 7
 x >= 3
 x != 4
 
+
+
+
 # Loops ----
 # We can create a for loop to repeat a process
 # Here we will ask R to print the statement "My name is ___" for every value in 
@@ -128,6 +149,9 @@ for (name in names) {
   print(paste("My name is", name))
 }
 
+
+
+
 # Packages ----
 # Since R is run by an open source community it is always expanding and improving and 
 # there are many different packages that can be installed to increase its functionality
@@ -135,12 +159,15 @@ for (name in names) {
 
 # we have already run the following line of code to install the packages we need
 
-# dplyr and pipes ----
 # To use an already installed R package in an R project we call it with library()
 library(dplyr)
 library(tidyr)
 library(ggplot2)
 
+
+
+
+# Data manipulation with dplyr ----
 # dplyr adds many functions that can be used to transform data. We will use 4
 # of those below.
 # We are also going to use the pipe %>% operator as it allows us to
@@ -177,7 +204,7 @@ new_character_details <- arrange(.data = new_character_details,
 new_character_details <- filter(.data = new_character_details,
                                 Age < 150)
 
-
+## piping with dplyr ----
 # Or, using the pipe %>% operator we can chain these four commands together
 
 new_character_details_piped <- character_details %>%
@@ -195,12 +222,17 @@ new_character_details_piped <- character_details %>%
 # or you can highlight up to the pipe on a selection of rows and run that
 
 
+
+
 # data import ---
 # Most times we won't be defining our data in the code, we will be importing
 # from a csv or other static file
 starwars <- read.csv("starwars.csv")
 
-# YOUR TURN ----
+
+
+
+# Coding exercise ----
 # we want process the starwars dataframe applying the below conditions: 
 
 ## STEP 1: Select columns
@@ -231,6 +263,9 @@ starwars_edit <- xxxx %>%
          xxxx = eye_color)
 
 
+
+
+# Simple plots in R ----
 # we can create a plot to summarise some of the information in the edited starwars dataframe
 
 print(ggplot_height_species <- ggplot(starwars_edit, aes(x = species, y = height, colour = species)) +
@@ -240,6 +275,9 @@ print(ggplot_height_species <- ggplot(starwars_edit, aes(x = species, y = height
 
 # we can write that file out to csv from R 
 write.csv(starwars_edit, file="starwars_edited.csv", row.names = FALSE)
+
+
+
 
 # Keyboard shortcuts ----
 # assignment - Alt + -
