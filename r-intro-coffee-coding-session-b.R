@@ -49,6 +49,8 @@ write.csv(
 # Here we ask R to print the statement "My name is ___"
 # for each value stored in the names vector.
 
+names <- c("Brenda", "Joe", "Mike")
+
 for (name in names) {
   print(paste("My name is", name))
 }
