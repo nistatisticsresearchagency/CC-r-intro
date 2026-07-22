@@ -1,0 +1,196 @@
+﻿deni_ref,school_name,total_enrolment,fsme_number
+1210014,"Ashfield Girls' High School, Belfast",774,339
+1210015,"Ashfield Boys' High School, Belfast",939,412
+1210021,Belfast Model School for Girls,"1,056",581
+1210022,Belfast Boys' Model School,"1,133",602
+1230053,St Louise's Comprehensive College,"1,548",879
+1230104,"Mercy College, Belfast",833,565
+1230155,"St Genevieve's High School, Belfast","1,019",467
+1230182,De La Salle College,783,436
+1230275,"St Joseph's College, Belfast",898,377
+1230321,Blessed Trinity College,"1,344",687
+1230324,All Saints College,795,514
+1240291,Colaiste Feirste,"1,009",495
+1260269,"Hazelwood Integrated College, Newtownabbey","1,081",515
+1260294,Malone Integrated College,818,449
+1410079,"Grosvenor Grammar School, Belfast","1,208",99
+1410270,"Wellington College, Belfast",794,116
+1410315,"Bloomfield Collegiate School, Belfast",763,97
+1420020,"Campbell College, Belfast",968,25
+1420021,"St Mary's Christian Brothers Grammar School, Belfast","1,145",355
+1420022,"Methodist College, Belfast","1,855",139
+1420027,The Royal Belfast Academical Institution,"1,073",65
+1420028,Belfast Royal Academy,"1,454",172
+1420029,"St Dominic's High School, Belfast","1,062",245
+1420030,"St Malachy's College, Belfast","1,220",242
+1420082,"Dominican College, Fortwilliam","1,060",171
+1420089,"Strathearn School, Belfast",825,55
+1420095,Rathmore Grammar School,"1,258",122
+1420264,Victoria College,948,109
+1420265,"Hunterhouse College, Belfast",743,92
+1420277,"Aquinas Grammar School, Belfast",995,57
+2210065,Castlederg High School,462,134
+2210125,Omagh High School,462,117
+2210302,Limavady High School,828,273
+2210306,"Lisneal College, Londonderry","1,192",399
+2210312,"Devenish College, Enniskillen",757,162
+2230077,"St Mary's, Limavady",583,193
+2230081,"St Mary's College, Londonderry",873,360
+2230099,"St Fanchea's College, Enniskillen",337,106
+2230100,"St Joseph's College, Enniskillen",267,101
+2230109,"St Mary's College, Irvinestown",186,63
+2230122,"St Patrick's & St Brigid's College, Claudy",465,170
+2230131,"St Joseph's Boys' School, Creggan",724,410
+2230138,"Dean Maguirc College, Carrickmore",676,101
+2230144,"St Patrick's College, Dungiven",355,107
+2230148,St John's Business and Enterprise College,130,50
+2230166,"St Aidan's High School, Derrylin",270,35
+2230188,"St Cecilia's College, Derry",854,434
+2230225,"St Brigid's College, Carnhill",911,525
+2230298,"Sacred Heart College, Omagh",644,210
+2230301,"Holy Cross College, Strabane","1,517",495
+2230322,St Kevin's College,748,188
+2240319,Gaelcholaiste Dhoire,364,67
+2260276,Oakgrove Integrated College,560,226
+2260280,"Erne Integrated College, Enniskillen",293,83
+2260283,"Drumragh Integrated College, Omagh",588,177
+2410048,Limavady Grammar School,863,79
+2410066,Omagh Academy Grammar School,671,54
+2410311,"Strabane Academy, Liskey Road",660,160
+2420041,"Mount Lourdes Grammar School, Enniskillen",750,55
+2420043,"St Michael's College, Enniskillen",707,65
+2420052,"Thornhill College, Derry","1,362",301
+2420054,"St Columb's College, Derry","1,217",319
+2420064,"Christian Brothers Grammar School, Omagh",913,106
+2420065,"Loreto Grammar School, Omagh",892,116
+2420229,Foyle College,893,107
+2420287,"Lumen Christi College, Derry",862,75
+2420320,"Enniskillen Royal Grammar School, Cooper Crescent",966,77
+3210035,Magherafelt High School,648,165
+3210038,Larne High School,833,293
+3210124,Ballycastle High School,389,103
+3210133,Ballymoney High School,796,243
+3210134,Ballyclare Secondary School,"1,036",256
+3210172,Cullybackey College,662,171
+3210208,"Dunclug College, Ballymena",893,327
+3210222,Dunluce School,146,86
+3210300,Coleraine College,366,162
+3210313,"Abbey Community College, Newtownabbey",857,436
+3210323,Carrickfergus Academy,909,281
+3230075,"Our Lady of Lourdes High School, Ballymoney",413,190
+3230084,"St Patrick's College, Ballymena",402,117
+3230132,"St Colm's High School, Draperstown",383,54
+3230168,"St Pius X College, Magherafelt","1,131",248
+3230203,"Edmund Rice, Newtownabbey",817,230
+3230227,Cross & Passion College,878,153
+3230234,"St Patrick's College, Maghera","1,389",156
+3230308,"St Benedicts College, Randalstown",372,126
+3230310,"St Killian's College, Garron Tower Campus",778,148
+3230318,"St Conor's College, Kilrea-Clady",561,118
+3250149,Crumlin Integrated College,252,105
+3250202,"Integrated College, Glengormley","1,213",440
+3250207,Parkhall Integrated College,"1,044",317
+3260289,"Slemish Integrated College, Ballymena","1,076",211
+3260290,North Coast Integrated College,346,179
+3260299,Ulidia Integrated College,757,189
+3260303,"Sperrin Integrated College, Magherafelt",759,144
+3410008,Ballyclare High School,"1,247",78
+3410098,Carrickfergus Grammar School,761,71
+3410209,Antrim Grammar School,833,48
+3410297,"Cambridge House Grammar School, Ballymena",913,104
+3420010,"St Louis' Grammar, Ballymena","1,200",64
+3420011,Ballymena Academy,"1,228",59
+3420012,Dalriada Grammar,900,59
+3420034,"Loreto College, Coleraine",996,148
+3420046,Larne Grammar,747,54
+3420058,Rainey Endowed Grammar,776,57
+3420068,"Dominican College, Portstewart",676,139
+3420077,Belfast High School,972,62
+3420080,"St Mary's Grammar, Magherafelt","1,156",76
+3420317,Coleraine Grammar School,"1,026",120
+4210012,Movilla High School,640,279
+4210029,The High School Ballynahinch,379,125
+4210045,"Nendrum College, Newtownards",470,168
+4210046,"Glastry College, Newtownards",627,178
+4210051,"Lisnagarvey High School, Lisburn",614,222
+4210063,Saintfield High School,476,88
+4210201,"Laurelhill Community College, Lisburn",959,294
+4210262,Dundonald High School,550,290
+4210296,Bangor Academy & Sixth Form College,"1,867",472
+4210316,Breda Academy,849,383
+4230067,St Columba's College,170,61
+4230102,St Colmcille's High School,348,95
+4230107,St Columbanus' College,805,217
+4230161,St Colman's High & Sixth Form College Ballynahinch,577,151
+4230165,"St Patrick's Academy, Lisburn",560,217
+4230211,"St Malachy's High School, Castlewellan","1,051",264
+4230223,"St Colm's High School, Belfast",727,512
+4250024,"Priory Integrated College, Holywood",712,248
+4250072,"Fort Hill Integrated College, Lisburn",833,272
+4260255,"Lagan College, Belfast","1,472",268
+4260281,"Shimna Integrated College, Newcastle",678,145
+4260295,"Strangford Integrated College, Newtownards",833,228
+4260309,"Blackwater Integrated College, Downpatrick",286,103
+4410063,Regent House Grammar,"1,484",107
+4410085,Down High School,961,46
+4410097,"Glenlola Collegiate, Bangor","1,018",84
+4420015,Bangor Grammar School,948,70
+4420044,"Sullivan Upper School, Holywood","1,078",47
+4420050,"Friends' School, Lisburn","1,093",37
+4420051,"Wallace High School, Lisburn","1,189",69
+4420086,"Assumption Grammar School, Ballynahinch",947,66
+4420259,"Our Lady & St Patrick's College, Belfast","1,421",34
+4420325,Lecale Trinity Grammar School,"1,484",332
+5210016,Kilkeel High School,762,112
+5210025,Newtownhamilton High School,217,28
+5210043,Clounagh Junior High School,695,180
+5210047,Banbridge High School,757,222
+5210054,"Killicomaine Junior High School, Portadown",613,75
+5210064,Dromore High School,"1,088",112
+5210083,Markethill High School,523,69
+5210097,Fivemiletown College,384,75
+5210121,City of Armagh High School,378,106
+5210127,Rathfriland High School,380,69
+5210143,Tandragee Junior High,326,63
+5210153,Aughnacloy College,237,25
+5210186,Newry High School,434,168
+5210230,Cookstown High School,897,165
+5210231,"Drumglass High School, Dungannon",370,81
+5210271,Lurgan Junior High School,708,116
+5210282,"Craigavon Senior High School, Portadown",737,156
+5230056,"St Joseph's Boys' High School, Newry",405,165
+5230076,"St Patrick's College, Banbridge",747,165
+5230108,"St Mary's High School, Newry",578,227
+5230135,"St Mark's High School, Warrenpoint","1,131",277
+5230152,St Ciaran's College,884,105
+5230157,"St Paul's High School, Bessbrook","1,805",456
+5230167,"St Joseph's High School, Crossmaglen",890,231
+5230187,"St Patrick's High School, Keady","1,055",199
+5230192,"St Joseph's College, Coalisland",502,168
+5230213,"Lismore College, Drumgask","1,329",389
+5230218,"St Catherine's College, Armagh","1,261",247
+5230278,"Holy Trinity College, Cookstown","1,015",266
+5230293,"St Patrick's College, Dungannon",888,174
+5230321,"St John the Baptist's College, Portadown",563,182
+5250216,Craigavon Integrated College,386,181
+5260285,New-Bridge Integrated College,698,119
+5260286,Integrated College Dungannon,767,164
+5410013,Banbridge Academy,"1,349",55
+5410057,Lurgan College,472,42
+5410067,Portadown College,807,46
+5420045,"St Louis Grammar, Kilkeel",703,151
+5420059,"Abbey Christian Brothers Grammar, Newry",932,85
+5420060,"Our Lady's Grammar School, Newry",923,104
+5420062,St Colman's College - Newry,905,85
+5420073,St Joseph's Grammar School,968,129
+5420076,"Sacred Heart Grammar School, Newry",873,60
+5420260,"The Royal School, Dungannon",692,41
+5420263,"The Royal School, Armagh",808,41
+5420268,"St Patrick's Grammar School, Armagh",815,176
+5420304,"St Patrick's Academy, Dungannon","1,475",91
+5420314,"St Ronan's College, Lurgan","1,788",353
+,,,
+,,,
+,,,
+,,,
+,,,
