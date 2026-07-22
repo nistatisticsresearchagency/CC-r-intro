@@ -1,4 +1,8 @@
+
 # Functions ----
+
+# Custom Functions ----
+
 # We can write custom functions in R that will perform a series of operations when
 # called by their name
 # This function will add six to the number x, half it and output a sentence

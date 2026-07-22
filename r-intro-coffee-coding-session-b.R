@@ -2,35 +2,6 @@
 # SESSION 1 RECAP
 #################################################
 
-# RStudio
-# - Script pane: write and save code
-# - Console: run code and view results
-# - Environment: view objects stored in memory
-
-# Create objects using the assignment operator <-
-my_name <- "Leonie"
-x <- 6
-
-# View an object
-my_name
-
-# Basic calculations and functions
-5 + 5
-paste("Bumble", "Bee")
-
-# Data structures
-
-# Vector
-names <- c("Brenda", "Joe", "Mike")
-
-# Data frame
-df <- data.frame(names)
-
-# Logic
-my_name == "Leonie"
-x >= 3
-x != 4
-
 # Import data
 schools <- read.csv("postprimary_data.csv")
 
@@ -137,7 +108,7 @@ school_size_group = case_when(
 
 fsme <- read.csv("postprimary_fsme.csv")
 
-# Join FSME data onto the schools dataset, selecting only the varaibles we need
+# Join FSME data onto the schools dataset, selecting only the variables we need
 
 fsme <- fsme %>%
   select(
@@ -154,6 +125,7 @@ schools_joined <- schools %>%
 # inner_join() - keep only matching rows
 # right_join() - keep all rows from the second dataset
 # full_join()  - keep all rows from both datasets
+# anti_join() - keep all from first that don't match second
 
 
 # pivot data ----
