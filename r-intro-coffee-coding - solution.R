@@ -1,5 +1,5 @@
 # solution to self guided coding in the YOUR TURN section
-integrated_schools <- schools %>%
+integrated_schools <- schools_enrolment %>%
   filter(integrated == "Yes") %>%
   select(
     school_name,

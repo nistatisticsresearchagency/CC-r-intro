@@ -62,7 +62,17 @@ schools %>%
   count(school_type)
 
 # Average enrolment by school type
-schools_agg <- schools_enrolment %>%
+schools_agg <- schools %>%
+  mutate(
+    total_enrolment =
+      year_8 +
+      year_9 +
+      year_10 +
+      year_11 +
+      year_12 +
+      year_13 +
+      year_14
+  ) %>%
   group_by(school_type) %>%
   summarise(
     average_enrolment = mean(total_enrolment),

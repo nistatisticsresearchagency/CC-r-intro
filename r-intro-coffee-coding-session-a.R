@@ -49,7 +49,7 @@ names <- c("Brenda", "Joe", "Mike")
 values <- c(1, 3, 5)
 
 # Data frames: tables made up of vectors
-# After running this line double click on df in the environment to view the data
+# After running this line click on the 'df' entry in the environment to view the data
 df <- data.frame(names, values)
 
 # View a column from df using a $ separator
@@ -87,10 +87,10 @@ if (my_name == "Leonie") {
 # Packages ----
 # Since R is run by an open source community it is always expanding and improving and 
 # there are many different packages that can be installed to increase its functionality on top of BASE R
-# we have already ran renv to install the packages we need
+# we have already run renv to install the packages we need
 
 # Load packages ----
-# To use an already installed R package in an R project we call it with library()
+# To use an already installed R package in an R project session we call it with library()
 library(dplyr)
 library(ggplot2)
 
@@ -98,13 +98,14 @@ library(ggplot2)
 # We are also going to use the pipe %>% operator as it allows us to
 # chain commands together and create a pipe
 
-# importing data
-# mutate(): add a new column
-# select(): reorder, and select columns
-# filter(): subset rows in a data frame based on a condition
-# arrange(): sort data by a particular column
-# group_by() + summarise()
-# a simple ggplot
+# Over the rest of this session and part of session B, We will cover:
+#   importing data
+#   mutate(): add a new column
+#   select(): reorder, and select columns
+#   filter(): subset rows in a data frame based on a condition
+#   arrange(): sort data by a particular column
+#   group_by() + summarise(): aggregate values within a selected grouping
+#   ggplot(): a simple charting library
 
 
 # Import data ----
@@ -147,24 +148,23 @@ schools_selected <- schools_enrolment %>%
   select(
     school_name,
     school_type,
-    integrated,
     total_enrolment
   )
 
 # Filtering data ----
 
 # Grammar schools only
-schools_grammar <- schools %>%
+schools_grammar <- schools_selected %>%
   filter(school_type == "Grammar")
 
 # Sorting data ----
 
 # Smallest schools first - default is ascending
-schools <- schools_enrolment %>%
+schools_grammar_sorted <- schools_grammar %>%
   arrange(total_enrolment)
 
 # Largest schools first
-schools <- schools_enrolment %>%
+schools_grammar_sorted <- schools_grammar_sorted %>%
   arrange(desc(total_enrolment))
 
 
@@ -172,7 +172,7 @@ schools <- schools_enrolment %>%
 # Using the pipe operator means not having to declare which data frame 
 # we are using at each step
 # The result of each step in the piped commands is passed to the next step
-# Note how the resultant data frames are identical
+# Note how the resultant data frames (schools_grammar_sorted and school_sumamry) are identical
 
 # if you need to break into a pipe partway through you can separate out the statements
 # or you can highlight up to the pipe on a selection of rows and run that
@@ -190,8 +190,8 @@ school_summary <- schools %>%
   ) %>%
   filter(school_type == "Grammar") %>%
   select(
-    school_type,
     school_name,
+    school_type,
     total_enrolment
   ) %>%
   arrange(desc(total_enrolment))
@@ -214,7 +214,7 @@ school_summary
 # 2. Select school name, district council and total enrolment
 # 3. Sort by district council (ascending)
 
-integrated_schools <- schools %>%
+integrated_schools <- schools_enrolment %>%
   filter(xxxx == "Yes") %>%
   select(
     xxxx,
@@ -229,8 +229,8 @@ integrated_schools
 
 integrated_schools_export <- integrated_schools %>%
   rename(
-    `School Type` = school_type,
     `School Name` = school_name,
+    `District Council` = district_council,
     `Total Enrolment` = total_enrolment
   )
 
