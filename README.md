@@ -17,4 +17,4 @@
   - You may not have access to the package repository needed to install packages within this project. Contact techlab@nisra.gov.uk for more info on this
   - You should still be able to run the scripts below up to the packages section, even without completed installs, as the earlier parts use BASE R code only
 
-Open the _"r-intro-coffee-coding.R"_ script and run through code
+Session code is contained in _"r-intro-coffee-coding-session-a.R"_ and _"r-intro-coffee-coding-session-b.R"_.
